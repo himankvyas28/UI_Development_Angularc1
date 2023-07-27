@@ -1,0 +1,21 @@
+.red-box {
+    background-color: red;
+    height: 30vh; /* Set height to 30% of the viewport height */
+    width: 30vw;  /* Set width to 30% of the viewport width */
+    padding: 20px; /* Add some padding for content spacing */
+}
+
+h1 {
+    color: white; /* Set the heading color to be visible on the red background */
+}
+
+.content-box {
+    width: 100%; /* The box inside the red box will take 100% width */
+    max-width: 1000px; /* Set a maximum width to limit the content's expansion */
+    margin: 0 auto; /* Center the content horizontally within the red box */
+}
+
+p {
+    font-size: 16px; /* Set a font size for the text */
+    color: white; /* Set the text color to be visible on the red background */
+}

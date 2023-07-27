@@ -1,0 +1,97 @@
+
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: 'Rota';
+    src: url('./fonts/Rota-Regular.otf') format('opentype');
+    /* Add more src lines for different font formats if needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Rota';
+    src: url('./fonts/Rota-Bold.otf') format('opentype');
+    /* Add more src lines for different font formats if needed */
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Rota';
+    src: url('./fonts/Rota-Medium.otf') format('opentype');
+    /* Add more src lines for different font formats if needed */
+    font-weight: 500; /* Use the appropriate font-weight value for medium */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Rota';
+    src: url('./fonts/Rota-Black.otf') format('opentype');
+    /* Add more src lines for different font formats if needed */
+    font-weight: 900; /* Use the appropriate font-weight value for black */
+    font-style: normal;
+  }
+  body {
+    font-family: 'Rota', Arial, sans-serif;
+  }
+  /* styles.css */
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+
+.main{
+    height: 100vh; 
+    width: 100vw;
+     background-color: white; 
+     display: flex; 
+     flex-direction: column; 
+     padding: 100px 0 100px 0;
+     justify-content: center;
+     align-items: center;
+  
+}
+
+.ok {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: #e9ecef;
+    padding: 10px;
+}
+.ok h3 {
+    color: black;
+    font-size: 20px;
+}
+/* @media screen and (max-width: 600px) {
+    .ok {
+        width: 80vw; /* Adjust width for smaller screens */
+        /* height: 20vh; Adjust height for smaller screens */
+    /* } */
+/* } */ 
+.container{
+    padding: 3px;
+}
+.container h3{
+  font-size: 30px;
+  padding-left: 30px;
+}
+@media screen and (max-width: 767px) {
+ 
+ .container div{
+  flex-direction: column;
+  
+ }
+ .ok{
+  width: 350px;
+  height: auto;
+
+}
+.main{
+  margin: auto;
+  padding: auto;
+}
+
+}
